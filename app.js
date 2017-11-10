@@ -16,5 +16,4 @@ fs.readFile(filename,function(err,data){
     res.write(filename);
         return res.end()
 });
-
 }).listen(3000);

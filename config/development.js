@@ -7,10 +7,10 @@
 
     // },
     mysqlConnection: {
-        host: 'localhost',//'50.62.209.76',
-        user: 'root',
-        password: 'root',
-        database: 'mdm_db',
+        host: '50.62.209.76',
+        user: 'weapp',
+        password: 'weapp@123',
+        database: 'wepay',
         connectionLimit: 10
     },
     fcmNotification:{

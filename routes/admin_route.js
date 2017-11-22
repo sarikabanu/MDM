@@ -15,14 +15,17 @@ module.exports = {
                 if (req.params.action == 'approveUser') {//approve ,reject
                     adminservice.approveUser(req, res)
                 }
-                if (req.params.action == 'listOfuser') {//approved,rejected,requested
-                    adminservice.listOfuser(req, res)
-                }
+//                 if (req.params.action == 'listOfuser') {//approved,rejected,requested
+//                     adminservice.listOfuser(req, res)
+//                 }
               })
          .get(function (req, res) {
                 if (req.params.action == 'getAdminDetails') {
                     adminservice.getAdminDetails(req, res)
                 }
+            });
+       app.get('/admin/listOfuser/:page/:numOfItem',function (req, res) {
+                 adminservice.listOfuser(req, res)
             });
         // app.post('/adminUpdate', function (req, res) {
         //      upload(req, res, function (err) {

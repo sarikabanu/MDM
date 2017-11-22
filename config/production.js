@@ -6,11 +6,11 @@ module.exports = {
         fileLink: 'https://s3.amazonaws.com/musicapp-bucket/'
 
     },
-    mysqlConnection: {
+   mysqlConnection: {
         host: '50.62.209.76',
         user: 'weapp',
         password: 'weapp@123',
-        database: 'sgs_db',
+        database: 'wepay',
         connectionLimit: 10
     },
     fcmNotification:{

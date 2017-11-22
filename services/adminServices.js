@@ -58,13 +58,13 @@ function adminServices() {
   },
 
 this.listOfuser=function(req, res){
-     let page = req.body.page;
-     let reqitem = req.body.numOfItem;
+    let page = req.params.page;
+     let reqitem = req.params.numOfItem;
     let token = req.headers['x-access-token']
       console.log("token" + token)
       if(req.jwtToken.role_id==1){
-          if (!req.body) {
-            res.send({status:0,message:'fileds are required in request',content:''})
+          if (!page || !reqitem) {
+            res.send({status:0,message:'please specify page and numOfItem as request',content:''})
             }else{
             adminservice.listOfuser(page,reqitem,function(error,response){
             console.log('response  '+response)

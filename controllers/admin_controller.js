@@ -117,7 +117,7 @@ this.getAdminDetailsByMailId = function(mail_id,token,callback) {
             else{
                 if(result.length>0){
                 let response = {
-                 total_items,
+                total_pages,
                  result
                 }
                 logging.LoggingFunction('listOfuser', 'retreived rows from database');

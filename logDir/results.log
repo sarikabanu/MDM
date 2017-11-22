@@ -1,0 +1,94 @@
+{"API":"getAppDevice","MESSAGE":"error in connecting to database","level":"info","message":"","timestamp":"2017-11-13T07:53:47.517Z"}
+{"API":"getAppDevice","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-13T07:55:31.237Z"}
+{"API":"PolicyInsert","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-13T07:56:41.480Z"}
+{"API":"PolicyInsert","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-13T07:57:14.186Z"}
+{"API":"PolicyInsert","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-13T07:57:28.771Z"}
+{"API":"PolicyInsert","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-13T07:58:03.627Z"}
+{"API":"PolicyInsert","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-13T07:58:27.178Z"}
+{"API":"PolicyInsert","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-13T07:59:29.417Z"}
+{"API":"PolicyInsert","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-13T08:00:04.074Z"}
+{"API":"PolicyInsert","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-13T09:24:21.744Z"}
+{"API":"PolicyInsert","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-13T09:25:50.673Z"}
+{"API":"PolicyInsert","MESSAGE":"err while insertingError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`Id` = 'c79749be-cc2a-4c82-a2be-2d3388a8fb19', `Name` = 'policyname1', `Descript' at line 1","level":"info","message":"","timestamp":"2017-11-13T09:26:24.659Z"}
+{"API":"PolicyInsert","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-13T09:46:35.932Z"}
+{"API":"PolicyInsert","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-13T09:48:21.984Z"}
+{"API":"PolicyInsert","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-13T09:52:24.805Z"}
+{"API":"PolicyInsert","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-13T09:53:07.424Z"}
+{"API":"listOfAppsTracked","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-14T10:12:00.468Z"}
+{"API":"PolicyInsert","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-14T10:18:54.162Z"}
+{"API":"PolicyInsert","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-14T10:19:30.519Z"}
+{"API":"PolicyInsert","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-14T10:20:21.844Z"}
+{"API":"PolicyInsert","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-14T10:23:45.289Z"}
+{"API":"login admin","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-20T12:04:41.185Z"}
+{"API":"login admin","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-20T12:06:49.837Z"}
+{"API":"login admin","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-20T12:07:44.675Z"}
+{"API":"login admin","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-20T12:08:05.550Z"}
+{"API":"loginUser","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-20T12:23:26.337Z"}
+{"API":"loginUser","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-20T12:23:48.595Z"}
+{"API":"loginUser","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-20T12:24:27.601Z"}
+{"API":"loginUser","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-20T12:24:40.922Z"}
+{"API":"loginUser","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-20T12:25:18.760Z"}
+{"API":"loginUser","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-20T12:25:39.152Z"}
+{"API":"loginUser","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-20T12:26:07.422Z"}
+{"API":"loginUser","MESSAGE":"err while inserting","level":"info","message":"","timestamp":"2017-11-20T12:27:21.091Z"}
+{"API":"loginUser","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T12:27:50.364Z"}
+{"API":"loginUser","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T12:28:12.208Z"}
+{"API":"login admin","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-20T13:01:30.526Z"}
+{"API":"approveUser","MESSAGE":"no rows present","level":"info","message":"","timestamp":"2017-11-20T13:01:54.815Z"}
+{"API":"approveUser","MESSAGE":"no rows present","level":"info","message":"","timestamp":"2017-11-20T13:02:06.912Z"}
+{"API":"approveUser","MESSAGE":"no rows present","level":"info","message":"","timestamp":"2017-11-20T13:02:30.440Z"}
+{"API":"approveUser","MESSAGE":"retreived rows from database","level":"info","message":"","timestamp":"2017-11-20T13:03:13.600Z"}
+{"API":"approveUser","MESSAGE":"retreived rows from database","level":"info","message":"","timestamp":"2017-11-20T13:03:43.509Z"}
+{"API":"approveUser","MESSAGE":"retreived rows from database","level":"info","message":"","timestamp":"2017-11-20T13:03:50.469Z"}
+{"API":"listOfuser","MESSAGE":"retreived rows from database","level":"info","message":"","timestamp":"2017-11-20T13:07:11.918Z"}
+{"API":"appLock","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T13:11:46.278Z"}
+{"API":"appLock","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T13:12:16.376Z"}
+{"API":"appLock","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T13:12:27.676Z"}
+{"API":"appLock","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T13:12:35.642Z"}
+{"API":"InsertAppInfo","MESSAGE":"err while insertingError: ER_BAD_FIELD_ERROR: Unknown column 'CretedDate' in 'field list'","level":"info","message":"","timestamp":"2017-11-20T13:17:20.175Z"}
+{"API":"InsertAppInfo","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T13:17:47.290Z"}
+{"API":"listOfAppsTracked","MESSAGE":"retrieved rows from database","level":"info","message":"","timestamp":"2017-11-20T13:19:23.693Z"}
+{"API":"listOfAppsTracked","MESSAGE":"retrieved rows from database","level":"info","message":"","timestamp":"2017-11-20T13:19:46.572Z"}
+{"API":"TimeUsageOnApp","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T13:23:01.557Z"}
+{"API":"TimeUsageOnApp","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T13:23:39.366Z"}
+{"API":"TimeUsageOnApp","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T13:23:46.136Z"}
+{"API":"getTimeUsageOnAppById","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-20T13:25:30.253Z"}
+{"API":"TimeUsageOnApp","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T13:30:14.862Z"}
+{"API":"TimeUsageOnApp","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T13:32:36.709Z"}
+{"API":"TimeUsageOnApp","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T13:34:26.330Z"}
+{"API":"TimeUsageOnApp","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T13:35:55.348Z"}
+{"API":"TimeUsageOnApp","MESSAGE":"err while insertingError: ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: ' 17:58:12' for column 'Duration' at row 1","level":"info","message":"","timestamp":"2017-11-20T13:36:26.628Z"}
+{"API":"TimeUsageOnApp","MESSAGE":"err while insertingError: ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: '17:58:12' for column 'Duration' at row 1","level":"info","message":"","timestamp":"2017-11-20T13:36:45.376Z"}
+{"API":"TimeUsageOnApp","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-20T13:36:57.476Z"}
+{"API":"getTimeUsageOnAppById","MESSAGE":"retrieved rows from database","level":"info","message":"","timestamp":"2017-11-20T13:37:40.440Z"}
+{"API":"getTimeUsageOnAppById","MESSAGE":"retrieved rows from database","level":"info","message":"","timestamp":"2017-11-20T13:39:17.023Z"}
+{"API":"getTimeUsageOnAppById","MESSAGE":"retrieved rows from database","level":"info","message":"","timestamp":"2017-11-20T13:40:10.168Z"}
+{"API":"listOfAppsTracked","MESSAGE":"retrieved rows from database","level":"info","message":"","timestamp":"2017-11-20T13:42:01.436Z"}
+{"API":"appLock","MESSAGE":"err while insertingError: ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: '' for column 'Duration' at row 1","level":"info","message":"","timestamp":"2017-11-21T05:21:43.260Z"}
+{"API":"appLock","MESSAGE":"rows inserted in database","level":"info","message":"","timestamp":"2017-11-21T05:22:22.326Z"}
+{"API":"login admin","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-21T05:38:01.221Z"}
+{"API":"getAdminDetailsByMailId","MESSAGE":"could not get details of current adminError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1","level":"info","message":"","timestamp":"2017-11-21T05:39:20.484Z"}
+{"API":"getAdminDetailsByMailId","MESSAGE":"retreived rows from database","level":"info","message":"","timestamp":"2017-11-21T05:41:42.755Z"}
+{"API":"loginUser","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-21T06:00:23.828Z"}
+{"API":"loginUser","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-21T06:01:02.916Z"}
+{"API":"loginUser","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-21T06:01:54.161Z"}
+{"API":"loginUser","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-21T06:03:36.707Z"}
+{"API":"loginUser","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-21T06:14:02.880Z"}
+{"API":"adminUpdate","MESSAGE":"err while updating","level":"info","message":"","timestamp":"2017-11-21T06:14:41.681Z"}
+{"API":"adminUpdate","MESSAGE":"err while updating","level":"info","message":"","timestamp":"2017-11-21T06:15:20.237Z"}
+{"API":"adminUpdate","MESSAGE":"err while updatingError: ER_BAD_FIELD_ERROR: Unknown column 'ModifiedBy' in 'field list'","level":"info","message":"","timestamp":"2017-11-21T06:17:27.875Z"}
+{"API":"adminUpdate","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-21T06:18:32.773Z"}
+{"API":"login admin","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-21T10:28:25.617Z"}
+{"API":"login admin","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-21T10:29:46.383Z"}
+{"API":"login admin","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-21T10:30:17.276Z"}
+{"API":"login admin","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-21T10:33:14.204Z"}
+{"API":"login admin","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-21T10:35:01.623Z"}
+{"API":"login admin","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-21T10:40:34.146Z"}
+{"API":"login admin","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-21T10:44:53.513Z"}
+{"API":"login admin","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-21T11:14:13.323Z"}
+{"API":"login admin","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-21T11:15:42.521Z"}
+{"API":"login admin","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-22T06:11:37.630Z"}
+{"API":"login admin","MESSAGE":"data is not present","level":"info","message":"","timestamp":"2017-11-22T06:13:12.695Z"}
+{"API":"login admin","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-22T06:13:54.569Z"}
+{"API":"login admin","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-22T06:15:05.667Z"}
+{"API":"login admin","MESSAGE":"rows updated in database","level":"info","message":"","timestamp":"2017-11-22T06:18:50.043Z"}

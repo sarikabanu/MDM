@@ -24,7 +24,7 @@ class User
  userResponse(result, token) {
         this.userInstance = {
             Id: result[0].Id,
-            RoleId:result[0].RoleId,
+//          RoleId:result[0].RoleId,
             Name: result[0].Name,
             PhoneNumber: result[0].PhoneNumber,
             MailId: result[0].MailId,

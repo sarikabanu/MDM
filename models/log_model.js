@@ -10,7 +10,7 @@ class Logs
             VisitedUrl:data.visited_url,
             Duration:data.duration,
             Description:data.description,
-            CretedDate: new Date(),
+            CreatedDate: new Date(),
             ModifiedDate: new Date(),
             CreatedBy:user_id,
             ModifiedBy:user_id,

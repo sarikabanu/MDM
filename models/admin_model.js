@@ -11,7 +11,7 @@ class Admin
             MailId:data.mail_id,
             Password:data.password,
             ProfileUrl:data.profile_url,
-            CretedDate: new Date(),
+            CreatedDate: new Date(),
             ModifiedDate: new Date(),
             Status:1,
             ApprovalStatus:0

@@ -16,7 +16,7 @@ function AdminService() {
                 callback(new Error("error in connecting to database"));
                 }
            else{
-                 con.query('Select Id from user where MailId = ? and Password = ?', [request.mail_id,request.password], function (err, userResult) {
+                 con.query('Select Id ,RoleID from user where MailId = ? and Password = ?', [request.mail_id,request.password], function (err, userResult) {
                     if (err) {
                          logging.LoggingFunction('login admin','could not get details of current user');
                          callback(new Error("could not get details of current user"));
@@ -26,16 +26,17 @@ function AdminService() {
                         if(userResult.length>0){
                         console.log('data is present')
                         console.log(' [userResult[0].Id]' +userResult[0].Id)
+                        console.log(' [userResult[0].RoleID]' +userResult[0].RoleID)
                         console.log('got details') 
                        
-                        con.query('select * from user where MailId =? and Password= ? and RoleID = ? ',[request.mail_id,request.password,request.role_id] ,function (err, result) {
+                        con.query('select * from user where MailId =? and Password= ? and RoleID = ? ',[request.mail_id,request.password,userResult[0].RoleID] ,function (err, result) {
                           if (err) {
                             logging.LoggingFunction('login admin','err in retrieving details of user');
                             callback(new Error("err in retrieving details of user"));
                             }
                          else{
                            if(result.length>0){
-                                let token =jwt.generate(request.mail_id,request.role_id,userResult[0].Id)
+                                let token =jwt.generate(request.mail_id,userResult[0].RoleID,userResult[0].Id)
                                 response = {
                                       token:token
                                     }
@@ -59,7 +60,7 @@ function AdminService() {
          }
      });
  }
-
+    
 this.loginUser = function(request, callback) {
 //  var profile_url=awspath+profileurl
   var profile_url=request.profile_url
